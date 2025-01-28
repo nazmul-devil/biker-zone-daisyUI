@@ -36,9 +36,188 @@
             }
         }
     </script>
+
+    <!--customize css styles -->
+    <style>
+        .pin {
+            background-color: rgba(231, 111, 81, 1);
+        }
+        .pin-1{
+            background-color: rgba(231, 111, 81, 0.1);
+        }
+        .b-1{
+            color: rgba(0, 0, 0, 0.8);
+        }
+    </style>
 </head>
 
-<body>
+<body class="font-poppins">
+
+    <!-- nav bar -->
+
+    <header class="container mx-auto">
+        <div class="navbar bg-base-100 mt-3">
+            <div class="flex-1">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a>Home</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>News</a></li>
+                        <li><a>contact</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost font-bold text-xl lg:text-4xl">Bike Dekho</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a class="font-medium text-lg text-black">Shop</a></li>
+                    <li><a class="font-medium text-lg text-black">Home</a></li>
+                    <li><a class="font-medium text-lg text-black">News</a></li>
+                    <li><a class="font-medium text-lg text-black">contact</a></li>
+                </ul>
+            </div>
+            <div class="">
+                <a class="btn pin text-white font-bold text-lg">Login</a>
+            </div>
+        </div>
+
+
+
+    </header>
+
+
+
+
+
+
+
+
+    <main class="container mx-auto">
+
+        <!-- hero section -->
+
+
+        <section>
+
+            <!-- header text -->
+
+
+            <!-- carousel part -->
+            <div>
+                <div class="carousel w-full">
+
+<!-- slide 1 -->
+
+
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <div class="pin-1 rounded-md grid grig-cols-1 lg:grid-cols-2 p-14 lg:p-28 items-center justify-center">
+                            <div>
+                                <h1 class="mb-5 font-bold text-6xl leading-[3.75rem] text-black">Ride-on R15 V4 with Smile</h1>
+                                <p class="mb-7 font-light text-lg leading-6 b-1">Amet minim mollit non deserunt ullamco
+                                    est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
+
+                                <div class="">
+                                    <a class="btn pin text-white font-semibold text-lg">Purchase</a>
+                                </div>
+                            </div>
+                            <div> <img src="images/slider/bike1.png" class="w-full" /></div>
+
+                        </div>
+                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                            <a href="#slide4" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+
+
+                    <!-- slide 2 -->
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <div class="pin-1 rounded-md grid grig-cols-1 lg:grid-cols-2 p-14 lg:p-28 items-center justify-center">
+                            <div>
+                                <h1 class="mb-5 font-bold text-6xl leading-[3.75rem] text-black">Ride-on R15 V4 with Smile</h1>
+                                <p class="mb-7 font-light text-lg leading-6 b-1">Amet minim mollit non deserunt ullamco
+                                    est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
+
+                                <div class="">
+                                    <a class="btn pin text-white font-semibold text-lg">Purchase</a>
+                                </div>
+                            </div>
+                            <div> <img src="images/slider/bike2.png" class="w-full" /></div>
+
+                        </div>
+                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+
+
+                    <!-- slide 3 -->
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <div class="pin-1 rounded-md grid grig-cols-1 lg:grid-cols-2 p-14 lg:p-28 items-center justify-center">
+                            <div>
+                                <h1 class="mb-5 font-bold text-6xl leading-[3.75rem] text-black">Ride-on R15 V4 with Smile</h1>
+                                <p class="mb-7 font-light text-lg leading-6 b-1">Amet minim mollit non deserunt ullamco
+                                    est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
+
+                                <div class="">
+                                    <a class="btn pin text-white font-semibold text-lg">Purchase</a>
+                                </div>
+                            </div>
+                            <div> <img src="images/slider/bike3.png" class="w-full" /></div>
+
+                        </div>
+                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide4" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+
+
+                    <!-- slide 4 -->
+                    <div id="slide4" class="carousel-item relative w-full">
+                        <div class="pin-1 rounded-md grid grig-cols-1 lg:grid-cols-2 p-14 lg:p-28 items-center justify-center">
+                            <div>
+                                <h1 class="mb-5 font-bold text-6xl leading-[3.75rem] text-black">Ride-on R15 V4 with Smile</h1>
+                                <p class="mb-7 font-light text-lg leading-6 b-1">Amet minim mollit non deserunt ullamco
+                                    est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                </p>
+
+                                <div class="">
+                                    <a class="btn pin text-white font-semibold text-lg">Purchase</a>
+                                </div>
+                            </div>
+                            <div> <img src="images/slider/bike4.png" class="w-full" /></div>
+
+                        </div>
+                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                            <a href="#slide3" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+
+
+    </main>
+
 
 </body>
 
